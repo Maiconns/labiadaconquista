@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+    </style>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '664841206369513');
+        fbq('track', 'Purchase', {value: 10.00, currency: 'BRL'});
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=664841206369513&ev=Purchase&cd[value]=10.00&cd[currency]=BRL&noscript=1"
+    /></noscript>
+    <script>
+        // Função para redirecionar após um pequeno atraso
+        setTimeout(function() {
+            window.location.href = 'https://drive.google.com/file/d/1CeCqqNMkLv7bGwYJZLq8e2zwMCXDakXA/view?usp=drive_link'; // Substitua 'x' pela sua URL de destino
+        }, 3000); // Redireciona após 3 segundos (3000 milissegundos)
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Liberando seu acesso a Lábia da Conquista...</h1>
+        <p>Se o redirecionamento não ocorrer automaticamente, <a href="x">clique aqui</a>.</p>
+    </div>
+</body>
+</html>
